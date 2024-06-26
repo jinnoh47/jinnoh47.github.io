@@ -1,18 +1,18 @@
-title: Abhishek Nagekar
-description: Web & Security Engineer
-site_title: '@abhn - Abhishek Nagekar'
+title: Jin Hyeok Noh
+description: Data Scientist, Machine Learning Engineer, Data Analyst, Researcher
+site_title: '@jinnoh47 - Jin Hyeok Noh'
 
 # Build settings
 markdown: kramdown
 exclude: [vendor/ruby]
 
 # Personalization
-github_username: abhn
-blog_url: https://www.nagekar.com
+github_username: jinnoh47
+blog_url: https://www.jinnoh47.github.io
 email: abhishek@nagekar.com
-keybase_username: abhn
-twitter_username: abhn_
-reddit_username: abhn
+keybase_username: jinnoh47
+twitter_username: jinnoh47
+reddit_username: jinnoh47
 
 # absolute or relative
 profile_picture: assets/images/pp.jpg
