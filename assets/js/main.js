@@ -44,7 +44,7 @@ function blog_posts() {
         
         if(post.tags) {
             tags = post.tags.map(tag => {
-                return `<a href="https://www.nagekar.com/tags#${tag}">${tag}</a>`
+                return `<a href="https://jinnoh47.github.io/tags#${tag}">${tag}</a>`
             })
         }
 
@@ -72,7 +72,7 @@ function blog_posts() {
 
         <div class="blog-link">
 
-            <h3><a href="https://www.nagekar.com">Visit the blog for more posts</a></h3>            
+            <h3><a href="https://jinnoh47.github.io/">Visit the blog for more posts</a></h3>            
 
         </div>
 
