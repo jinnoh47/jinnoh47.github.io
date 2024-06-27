@@ -33,7 +33,7 @@ let render_projects = (slug) => {
             link: 'https://github.com/abhn/Marvel',
             title: 'Hate Symbol Detection',
             demo: false,
-            technologies: ['Python', 'Computer Vision', 'Yolov5'],
+            technologies: ['Python', 'Computer Vision', 'Yolov7'],
             description: "Developed a machine learning model to identify and flag hate symbols embedded in-game environments, aiming to enhance workplace integrity and inclusivity.",
             categories: ['featured','diy', 'data science','research']
         },
@@ -42,7 +42,7 @@ let render_projects = (slug) => {
             link: 'https://github.com/BrownDSI/crypto-prediction',
             title: 'Cryptocurrency Prediction',
             demo: 'https://github.com/BrownDSI/crypto-prediction',
-            technologies: ['Python', 'Machine Learning','Deep Learning'],
+            technologies: ['Python', 'NLP','Deep Learning'],
             description: "Building a cryptocurrency financial model by combining extensive data sets on cryptocurrency prices obtained via Coinbase and Binance API.",
             categories: ['featured', 'data science','research','project']
         },

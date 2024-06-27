@@ -3,15 +3,12 @@
 A simple and modern portfolio template that is lightweight, mobile responsive and looks modern. 
 
 - [Demo](#demo)
-- [Screenshots](#screenshots)
 - [Features](#features)
 - [Installation](#installation)
 
 ### Demo
-[abhn.github.io/portfolio](https://abhn.github.io/portfolio)
+[abhn.github.io/portfolio](https://jinnoh47.github.io/)
 
-### Screenshots
-![homepage](tmp/screenshot.jpg?raw=true "Homepage")
 
 ### Features
 - Single page portfolio made with vanilla CSS and jQuery
