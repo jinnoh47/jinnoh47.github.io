@@ -17,7 +17,7 @@ let render_projects = (slug) => {
             demo: 'https://mporter.co',
             technologies: ['Python', 'LLama', 'Chatbot'],
             description: "Initiated and currently leading the development of a dynamic, AI-driven website for college students, emphasizing a user-centric approach.",
-            categories: ['featured', 'project']
+            categories: ['featured', 'project','diy']
         },
         {
             image: 'assets/images/mobile-landscape.jpg',
