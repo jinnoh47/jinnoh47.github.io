@@ -11,7 +11,7 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
-            image: 'assets/images/mentors.jpg',
+            image: 'assets/images/social-share-count.jpeg',
             link: 'false',
             title: 'College Bro',
             demo: 'false',
@@ -20,7 +20,7 @@ let render_projects = (slug) => {
             categories: ['featured', 'project','diy']
         },
         {
-            image: 'assets/images/mobile-landscape.jpg',
+            image: 'assets/images/springer.jpg',
             link: 'https://www.icaeb.org/venue.html',
             title: 'Event-Driven Strategy and the Market Response to North Koreas Armed Provocation: A Time Series Data Analysis of South Korean Defense Stocks',
             demo: 'https://www.icaeb.org/venue.html',
@@ -38,16 +38,16 @@ let render_projects = (slug) => {
             categories: ['featured','diy', 'data science','research']
         },
         {
-            image: 'assets/images/mpw.jpg',
+            image: 'assets/images/cypto.png',
             link: 'https://github.com/BrownDSI/crypto-prediction',
             title: 'Cryptocurrency Prediction',
             demo: 'https://github.com/BrownDSI/crypto-prediction',
-            technologies: ['Python', 'R', 'Machine Learning','Deep Learning'],
+            technologies: ['Python', 'Machine Learning','Deep Learning'],
             description: "Building a cryptocurrency financial model by combining extensive data sets on cryptocurrency prices obtained via Coinbase and Binance API.",
             categories: ['featured', 'data science','research','project']
         },
         {
-            image: 'assets/images/social-share-count.jpeg',
+            image: 'assets/images/ai.png',
             link: 'https://github.com/jinnoh47/AmbienceNet',
             title: 'AmbianceNet',
             demo: 'https://devpost.com/software/ambiancenet?ref_content=my-projects-tab&ref_feature=my_projects',
@@ -56,7 +56,7 @@ let render_projects = (slug) => {
             categories: ['data science','project']
         },
         {
-            image: 'assets/images/data-destroyer.png',
+            image: 'assets/images/water.png',
             link: 'https://github.com/jinnoh47/data1030-project',
             title: 'Water Potability',
             demo: false,
@@ -65,7 +65,7 @@ let render_projects = (slug) => {
             categories: ['data science','project']
         },
         {
-            image: 'assets/images/raspberry-pi-monitor.png',
+            image: 'assets/images/green-gas.png',
             link: 'https://github.com/jinnoh47/Estimation-of-Weekly-Greenhouse-Gas-Emissions',
             title: 'Greenhouse Gas Emissions',
             demo: false,
