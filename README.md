@@ -7,7 +7,7 @@ A simple and modern portfolio template that is lightweight, mobile responsive an
 - [Installation](#installation)
 
 ### Demo
-[abhn.github.io/portfolio](https://jinnoh47.github.io/)
+[jinnoh47.github.io](https://jinnoh47.github.io/)
 
 
 ### Features
