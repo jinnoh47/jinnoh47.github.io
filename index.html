@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -748,7 +748,7 @@ footer {
   <header class="hero">
     <div class="hero-top">
       <span class="hero-badge">Data Scientist</span>
-      <span class="hero-index">CV — 2025</span>
+      <span class="hero-index">CV — 2026</span>
     </div>
 
     <h1 class="hero-name">
@@ -778,9 +778,7 @@ footer {
   <div class="summary-band reveal">
     <span class="summary-tag">SUMMARY</span>
     <p class="summary-text">
-      Production 환경에서 시계열 분석과 데이터 기반 시스템을 설계·검증·개선한 Data Scientist.
-      Multivariate time-series 모델로 82%+ 정확도 달성, Teradata Possible 2025 발표,
-      Fortune 500 기업과 기술 도입 논의를 이끈 경험이 있습니다.
+      A data scientist who designs, validates, and improves time-series and data-driven systems in production. Built a multivariate time-series model to 82%+ accuracy, presented at Teradata Possible 2025, and sparked adoption talks with Fortune 500 companies.
     </p>
   </div>
 
@@ -888,16 +886,16 @@ footer {
 
               <div class="par">
                 <span class="par-key">Problem</span>
-                <span class="par-val">온프레미스 환경에서 idle 서버 및 fake usage로 인한 리소스 낭비 발생</span>
+                <span class="par-val">Resource waste from idle servers and fake usage in an on-premises environment</span>
               </div>
               <div class="par">
                 <span class="par-key">Action</span>
                 <div class="par-val">
                   <ul>
-                    <li>Multivariate time-series 기반 anomaly detection 모델 설계</li>
-                    <li>Fake usage 패턴 탐지를 위한 feature engineering (usage variance, periodicity 등)</li>
-                    <li>다양한 통계/ML 모델 비교 후 최적 모델 선정</li>
-                    <li>2초 이내 분석 가능한 inference pipeline 구현</li>
+                    <li>Designed and compared three approaches — frequency, clustering, similarity (FFT Flatness / GMM+SHAP / Similarity Search)</li>
+                    <li>Engineered daily volatility features across CPU, memory, GPU, and storage utilization</li>
+                    <li>Two-layer design separating model state judgment from the operating alert rule — alerts on week-long (168h) persistence</li>
+                    <li>Built an inference pipeline that completes analysis within 2 seconds</li>
                   </ul>
                 </div>
               </div>
@@ -905,9 +903,9 @@ footer {
                 <span class="par-key">Impact</span>
                 <div class="par-val">
                   <div class="impact-pills">
-                    <div class="impact-pill">탐지 정확도 <strong>82%</strong> 달성 (baseline 대비 성능 개선)</div>
-                    <div class="impact-pill">연간 <strong>876K kWh</strong> 전력 절감 · <strong>359t CO₂</strong> 감소 효과 추정</div>
-                    <div class="impact-pill">Teradata Possible 2025 컨퍼런스 데모 → 글로벌 기업 협업 논의</div>
+                    <div class="impact-pill"><strong>82%</strong> detection accuracy — improved over baseline</div>
+                    <div class="impact-pill">Estimated <strong>876K kWh</strong> annual power savings · <strong>359t CO₂</strong> reduction</div>
+                    <div class="impact-pill">Teradata Possible 2025 live demo → collaboration talks with global enterprises</div>
                   </div>
                 </div>
               </div>
@@ -919,15 +917,15 @@ footer {
 
               <div class="par">
                 <span class="par-key">Problem</span>
-                <span class="par-val">대기업 도입 RAG 플랫폼의 중소기업 확장 가능성 검증 필요</span>
+                <span class="par-val">Needed to verify whether an enterprise-adopted RAG platform could extend to mid-size clients</span>
               </div>
               <div class="par">
                 <span class="par-key">Action</span>
                 <div class="par-val">
                   <ul>
-                    <li>문서 유형별 (표, 각주, 계층 구조) RAG 성능 테스트 설계</li>
-                    <li>실제 고객 환경 (air-gapped, on-premise) 기준으로 검증</li>
-                    <li>커스터마이징 난이도 및 운영 비용 분석</li>
+                    <li>Designed RAG performance tests by document type (tables, footnotes, hierarchies)</li>
+                    <li>Validated against real client constraints (air-gapped, on-premise)</li>
+                    <li>Analyzed customization difficulty and operating costs</li>
                   </ul>
                 </div>
               </div>
@@ -935,9 +933,9 @@ footer {
                 <span class="par-key">Impact</span>
                 <div class="par-val">
                   <div class="impact-pills">
-                    <div class="impact-pill">복잡한 표/각주 구조 extraction failure → 핵심 리스크 도출</div>
-                    <div class="impact-pill">플랫폼 도입 비추천 · custom RAG 구축 전략 제안</div>
-                    <div class="impact-pill">PoC 단계에서 잠재 비용 리스크 사전 차단</div>
+                    <div class="impact-pill">Extraction failure on complex tables and footnotes → surfaced as the key risk</div>
+                    <div class="impact-pill">Advised against adoption · proposed a custom RAG build strategy</div>
+                    <div class="impact-pill">Blocked latent cost risks at the PoC stage</div>
                   </div>
                 </div>
               </div>
@@ -968,15 +966,15 @@ footer {
 
               <div class="par">
                 <span class="par-key">Problem</span>
-                <span class="par-val">건설사 대상 챗봇에서 일반 LLM의 도메인 한계 (법·시방서 이해 부족)</span>
+                <span class="par-val">Generic LLMs fell short on the construction domain (building codes, specifications)</span>
               </div>
               <div class="par">
                 <span class="par-key">Action</span>
                 <div class="par-val">
                   <ul>
-                    <li>LangChain 기반 RAG 파이프라인 QA 및 성능 검증 수행</li>
-                    <li>다양한 문서 유형 (건축법, 시방서, 규정) 테스트 케이스 설계</li>
-                    <li>OCR 기반 문서 처리 파이프라인 검증 및 failure case 분석</li>
+                    <li>QA-tested and validated a LangChain-based RAG pipeline</li>
+                    <li>Designed test cases across document types (building codes, specs, regulations)</li>
+                    <li>Verified the OCR document pipeline and analyzed failure cases</li>
                   </ul>
                 </div>
               </div>
@@ -984,9 +982,9 @@ footer {
                 <span class="par-key">Key Contrib</span>
                 <div class="par-val">
                   <ul>
-                    <li>기존 OCR pipeline에서 복잡한 표/계층 구조 처리 실패 문제 발견</li>
-                    <li>Table-Transformer + MinerU + OCR 조합으로 개선된 추출 방식 프로토타입 제안</li>
-                    <li>실제 ESG 보고서 기반 validation 수행</li>
+                    <li>Found the OCR pipeline failing on complex tables and hierarchical structures</li>
+                    <li>Proposed an improved extraction prototype combining Table-Transformer + MinerU + OCR</li>
+                    <li>Validated on real ESG reports</li>
                   </ul>
                 </div>
               </div>
@@ -994,8 +992,8 @@ footer {
                 <span class="par-key">Impact</span>
                 <div class="par-val">
                   <div class="impact-pills">
-                    <div class="impact-pill">문서 구조 이해 기반 RAG 개선 방향 제시</div>
-                    <div class="impact-pill">해당 접근을 비즈니스 로드맵 제안으로 연결</div>
+                    <div class="impact-pill">Set an improvement direction for structure-aware RAG</div>
+                    <div class="impact-pill">Carried the approach into a business roadmap proposal</div>
                   </div>
                 </div>
               </div>
@@ -1020,9 +1018,9 @@ footer {
         <div class="exp-body">
           <div class="exp-inner">
             <ul class="inline-list">
-              <li>Longformer 기반 NER 모델 개선 → 기존 대비 약 <strong>15%</strong> 성능 향상</li>
-              <li>Llama2 기반 cover letter 자동화 챗봇 개발</li>
-              <li>투자 시뮬레이션 ML framework 구축</li>
+              <li>Improved a Longformer-based NER model → ~<strong>15%</strong> gain over baseline</li>
+              <li>Built a Llama 2 cover-letter automation chatbot</li>
+              <li>Built an ML framework for investment simulation</li>
             </ul>
           </div>
         </div>
@@ -1044,8 +1042,8 @@ footer {
         <div class="exp-body">
           <div class="exp-inner">
             <ul class="inline-list">
-              <li>AI 기반 학생 플랫폼 구축 — 합성 데이터 기반 추천 알고리즘 → Llama 2 채팅 시스템으로 pivot</li>
-              <li>Pre-seed 펀딩 VC 피칭 — 기술 아키텍처를 비즈니스 언어로 번역</li>
+              <li>Built an AI platform for students — synthetic-data recommendation engine, pivoted to a Llama 2 chat system</li>
+              <li>Pitched VCs for pre-seed funding — translated technical architecture into business language</li>
             </ul>
           </div>
         </div>
@@ -1067,8 +1065,8 @@ footer {
         <div class="exp-body">
           <div class="exp-inner">
             <ul class="inline-list">
-              <li>Coinbase/Binance API 기반 암호화폐 가격 예측 파이프라인 구축 — Twitter 감성 분석 결합, baseline 대비 <strong>$62,716</strong> 수익 개선</li>
-              <li>Data Engineering 과목 Head TA — <strong>97%</strong> A-rate 달성, 교재가 학과 커리큘럼에 채택</li>
+              <li>Built a crypto price-prediction pipeline on Coinbase/Binance APIs — combined Twitter sentiment, <strong>$62,716</strong> over baseline</li>
+              <li>Head TA for Data Engineering — <strong>97%</strong> A-rate, materials adopted into the department curriculum</li>
             </ul>
           </div>
         </div>
@@ -1088,11 +1086,11 @@ footer {
     <div class="research-grid">
       <div class="research-card">
         <p class="rc-venue">Teradata Possible 2025</p>
-        <p class="rc-body">이상 탐지 모델 라이브 데모 — Fortune 500 기업과 기술 도입 논의로 연결</p>
+        <p class="rc-body">Live demo of the anomaly detection model — led to adoption talks with Fortune 500 companies</p>
       </div>
       <div class="research-card">
         <p class="rc-venue">ICAEB 2024 · Munich</p>
-        <p class="rc-body">Event-Driven Strategy and the Market Response to North Korea's Armed Provocation — 구두 발표 · Springer Proceedings (SCOPUS) 게재</p>
+        <p class="rc-body">Event-Driven Strategy and the Market Response to North Korea's Armed Provocation — oral presentation · Springer Proceedings (SCOPUS)</p>
       </div>
       <div class="research-card">
         <p class="rc-venue">Honor Thesis 2019</p>
@@ -1122,7 +1120,7 @@ footer {
         <p class="edu-school">UNIV. OF MISSISSIPPI</p>
         <p class="edu-degree">BBA Honors MIS — Magna Cum Laude</p>
         <ul class="edu-notes">
-          <li>IoT 시스템 프로토타입 논문</li>
+          <li>Honors thesis — IoT system prototype</li>
         </ul>
       </div>
     </div>
@@ -1130,7 +1128,7 @@ footer {
 
   <footer>
     <span class="footer-name">JIN HYEOK NOH</span>
-    <span class="footer-mono">jhnoh47@gmail.com · 2025</span>
+    <span class="footer-mono">jhnoh47@gmail.com · 2026</span>
   </footer>
 
 </div><!-- /page -->
